@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Big shop</title>
+
+	<link rel="preload" href="fonts/opensans.woff2" as="font">
+	<link rel="preload" href="fonts/opensansbold.woff2" as="font">
+	<link rel="preload" href="fonts/opensanssemibold.woff2" as="font">
+	<link rel="preload" href="fonts/robotobold.woff2" as="font">
+	<link rel="preload" href="fonts/obotomedium.woff2" as="font">
+    <link rel="preload" href="img/bg.png" as="image">
+    <link rel="preload" href="img/girl.png" as="image">
+
+	<link rel="stylesheet" type="text/css" href="style/style.min.css">
+</head>
+<body>
+    <header class="main-header banner">
+			<div class="main-header__container">
+				<div class="main-header__wrapper">
+					<a class="main-header__logo" href="#">
+						<img class="main-header__logo-image" src="img/logo.png" alt="Big shop" width="156" height="38">
+					</a>
+					<form class="main-header__search" action="#" method="POST">
+						<button type="submit" class="main-header__form-button"><span class="visually-hidden">Search</span></button>
+						<label for="fоrm-search">
+							<input class="main-header__field-search" type="text" name="fоrm-search" if="fоrm-search" placeholder="Search">
+						</label>
+						<select class="main-header__options" name="form__options">
+							<option selected="" value="Collection">Collection</option>
+
+						</select>
+					</form>
+				</div>
+				<div class="banner__wrapper">
+					<h1 class="banner__title">
+						<span class="banner__collection-season">Semmer<br></span> Collection
+					</h1>
+					<p class="banner__discont"><span class="banner__value">25% </span>Off</p>
+					<a class="button bunner__button" href="#">Details</a>
+				</div>
+			</div>
+    </header>
+
+    <main class="page-main">
+    	<div class="container">
+			<section class="trendy-arrivals">
+				<h2 class="trendy-arrivals__title">Trendy arrivals</h2>
+
+				<ul class="trendy-arrivals__catalog  catalog">
+					<li class="catalog__item">
+						<p class="catalog__social">
+							<a href="#"><span class="catalog__like">253</span></a>
+							<a href="#"><span class="catalog__msg">120</span></a>
+						</p>
+						<p class="catalog__image">
+							<img src="img/prod_1.jpg" alt="Leather Bags" width="185" height="241">
+						</p>
+						<p class="catalog__desc">
+							Black Genuine Leather Bags
+						</p>
+						<p class="catalog__price">
+							$ 23.20
+						</p>
+						<a class="button catalog__button" href="#">Add to cart</a>
+					</li>
+					<li class="catalog__item">
+						<p class="catalog__social">
+							<a href="#"><span class="catalog__like">253</span></a>
+							<a href="#"><span class="catalog__msg">120</span></a>
+						</p>
+						<p class="catalog__image">
+							<img src="img/prod_2.jpg" alt="Leather Bags" width="194" height="241">
+						</p>
+						<p class="catalog__desc">
+							Black Genuine Leather Bags
+						</p>
+						<p class="catalog__price">
+							$ 23.20
+						</p>
+						<a class="button catalog__button" href="#">Add to cart</a>
+					</li>
+					<li class="catalog__item">
+						<p class="catalog__social">
+							<a href="#"><span class="catalog__like">253</span></a>
+							<a href="#"><span class="catalog__msg">120</span></a>
+						</p>
+						<p class="catalog__image">
+							<img src="img/prod_3.jpg" alt="Leather Bags" width="241" height="241">
+						</p>
+						<p class="catalog__desc">
+							Black Genuine Leather Bags
+						</p>
+						<p class="catalog__price">
+							$ 23.20
+						</p>
+						<a class="button catalog__button" href="#">Add to cart</a>
+					</li>
+					<li class="catalog__item">
+						<p class="catalog__social">
+							<a href="#"><span class="catalog__like">253</span></a>
+							<a href="#"><span class="catalog__msg">120</span></a>
+						</p>
+						<p class="catalog__image">
+							<img src="img/prod_4.jpg" alt="Leather Bags" width="241" height="241">
+						</p>
+						<p class="catalog__desc">
+							Black Genuine Leather Bags
+						</p>
+						<p class="catalog__price">
+							$ 23.20
+						</p>
+						<a class="button catalog__button" href="#">Add to cart</a>
+					</li>
+					<li class="catalog__item">
+						<p class="catalog__social">
+							<a href="#"><span class="catalog__like">253</span></a>
+							<a href="#"><span class="catalog__msg">120</span></a>
+						</p>
+						<p class="catalog__image">
+							<img src="img/prod_5.jpg" alt="Leather Bags" width="241" height="241">
+						</p>
+						<p class="catalog__desc">
+							Black Genuine Leather Bags  
+						</p>
+						<p class="catalog__price">
+							$ 23.20
+						</p>
+						<a class="button catalog__button" href="#">Add to cart</a>
+					</li>
+					<li class="catalog__item">
+						<p class="catalog__social">
+							<a href="#"><span class="catalog__like">253</span></a>
+							<a href="#"><span class="catalog__msg">120</span></a>
+						</p>
+						<p class="catalog__image">
+							<img src="img/prod_6.jpg" alt="Leather Bags" width="241" height="241">
+						</p>
+						<p class="catalog__desc">
+							Black Genuine Leather Bags
+						</p>
+						<p class="catalog__price">
+							$ 23.20
+						</p>
+						<a class="button catalog__button" href="#">Add to cart</a>
+					</li>
+				</ul>	
+			</section>
+		</div>
+		<div class="container">
+			<section class="brands">
+				<div class="brands__wrapper">
+					<h2 class="brands__title">
+						Our Brands
+					</h2>
+					<b class="brands__lead-text">
+						Small Shoes 2017 new Arrivals  mini<br> 
+						Messenger <a class="brands__link" href="#">Classic Shoes</a>
+					</b>
+					<p class="brands__text">
+						In porttitor elit ac mi placerat hendrerit. Morbi accumsan, erat in ullamcorper consectetur, nisi erat efficitur eros, sagittis tristique odio turpis vitae dui. Vestibulum gravida est ut erat pretium, non pretium diam feugiat. Integer egestas suscipit lorem ac fermentum. Integer at mauris vitae justo sagittis dapibus. Pellentesque sit amet nisl vitae orci vehicula faucibus. Fusce et lat, feugiat est. 
+					</p>
+				</div>
+				<p class="brands__image">
+					<img src="img/phone.png" alt="Mobile messager" width="367" height="702">
+				</p>
+			</section>
+		</div>
+
+		<div class="container">
+			<section class="showcase catalog">
+				<h2 class="showcase__title">Our showcase</h2>
+				<ul class="showcase__list">
+					<li class="showcase__item">
+						<a href="#">Fashion</a>
+					</li>
+					<li class="showcase__item">
+						<a href="#">Furnitures</a>
+					</li>
+					<li class="showcase__item  showcase__item--current">
+						<a href="#">Watches</a>
+					</li>
+					<li class="showcase__item">
+						<a href="#">Mobile</a>
+					</li>
+					<li class="showcase__item">
+						<a href="#">Cloth</a>
+					</li>
+					<li class="showcase__item">
+						<a href="#">Toys</a>
+					</li>
+
+				</ul>
+
+				<ul class="showcase__catalog catalog">
+					<li class="catalog__item">
+						<p class="catalog__social">
+							<a href="#"><span class="catalog__like">253</span></a>
+							<a href="#"><span class="catalog__msg">120</span></a>
+						</p>
+						<p class="catalog__image">
+							<img src="img/watch_1.jpg" alt="Chain Watch" width="241" height="241">
+						</p>
+						<p class="catalog__desc">
+							Fashion Silver Chain Watch
+						</p>
+						<p class="catalog__price">
+							$ 35.24
+						</p>
+						<a class="button catalog__button" href="#">Add to cart</a>
+					</li>
+					
+					<li class="catalog__item">
+						<p class="catalog__social">
+							<a href="#"><span class="catalog__like">253</span></a>
+							<a href="#"><span class="catalog__msg">120</span></a>
+						</p>
+						<p class="catalog__image">
+							<img src="img/watch_2.jpg" alt="Chain Watch" width="188" height="241">
+						</p>
+						<p class="catalog__desc">
+							Fashion Silver Chain Watch
+						</p>
+						<p class="catalog__price">
+							$ 35.24
+						</p>
+						<a class="button catalog__button" href="#">Add to cart</a>
+					</li>
+					<li class="catalog__item">
+						<p class="catalog__social">
+							<a href="#"><span class="catalog__like">253</span></a>
+							<a href="#"><span class="catalog__msg">120</span></a>
+						</p>
+						<p class="catalog__image">
+							<img src="img/watch_3.jpg" alt="Chain Watch" width="241" height="241">
+						</p>
+						<p class="catalog__desc">
+							Fashion Silver Chain Watch
+						</p>
+						<p class="catalog__price">
+							$ 35.24
+						</p>
+						<a class="button catalog__button" href="#">Add to cart</a>
+					</li>
+					<li class="catalog__item">
+						<p class="catalog__social">
+							<a href="#"><span class="catalog__like">253</span></a>
+							<a href="#"><span class="catalog__msg">120</span></a>
+						</p>
+						<p class="catalog__image">
+							<img src="img/watch_4.jpg" alt="Chain Watch" width="241" height="241">
+						</p>
+						<p class="catalog__desc">
+							Fashion Silver Chain Watch
+						</p>
+						<p class="catalog__price">
+							$ 35.24
+						</p>
+						<a class="button catalog__button" href="#">Add to cart</a>
+					</li>
+				<li class="catalog__item">
+						<p class="catalog__social">
+							<a href="#"><span class="catalog__like">253</span></a>
+							<a href="#"><span class="catalog__msg">120</span></a>
+						</p>
+						<p class="catalog__image">
+							<img src="img/watch_5.jpg" alt="Chain Watch" width="241" height="241">
+						</p>
+						<p class="catalog__desc">
+							Fashion Silver Chain Watch
+						</p>
+						<p class="catalog__price">
+							$ 35.24
+						</p>
+						<a class="button catalog__button" href="#">Add to cart</a>
+					</li>
+					<li class="catalog__item">
+						<p class="catalog__social">
+							<a href="#"><span class="catalog__like">253</span></a>
+							<a href="#"><span class="catalog__msg">120</span></a>
+						</p>
+						<p class="catalog__image">
+							<img src="img/watch_6.jpg" alt="Chain Watch" width="205" height="241">
+						</p>
+						<p class="catalog__desc">
+							Fashion Silver Chain Watch
+						</p>
+						<p class="catalog__price">
+							$ 35.24
+						</p>
+						<a class="button catalog__button" href="#">Add to cart</a>
+					</li>
+				</ul>	
+			</section>
+		</div>
+		<section class="feedback">
+			<div class="container">	
+				<h2 class="feedback__title">Newsletter</h2>
+
+				<form class="feedback__form" action="#" method="POST">
+					<label for="fоrm-email">
+			    	    <input class="feedback__field-email" type="email" name="fоrm-email" if="fоrm-email" placeholder="Enter your email address..">
+			    	</label>
+			    	<button class="button feedback__submit" tupe="submit">Submit</button>
+				</form>
+			</div>
+		</section>
+    </main>
+		
+	<footer class="main-footer">
+		<div class="container">
+			<h2 class="main-footer__title">
+				Big Shop
+			</h2>
+
+			<ul class="main-footer__list">
+				<li class="main-footer__item">
+					<a href="#">Man</a>
+				</li>
+				<li class="main-footer__item">
+					<a href="#">Woman</a>
+				</li>
+				<li class="main-footer__item">
+					<a href="#">Kids</a>
+				</li>
+				<li class="main-footer__item">
+					<a href="#">Bags</a>
+				</li>
+				<li class="main-footer__item">
+					<a href="#">Watches</a>
+				</li>
+				<li class="main-footer__item">
+					<a href="#">Toys</a>
+				</li>
+			</ul>
+			<ul class="main-footer__social social">
+				<li class="social__item">
+					<a class="social__link social__link--facebook" href="#"><span class="visually-hidden">Facebook</span>
+						<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="12px" height="22px" viewBox="0 0 12 22" enable-background="new 0 0 12 22" xml:space="preserve">
+							<path fill="#555555" d="M12,4V0H8C5.791,0,4,1.791,4,4v4H0v4h4v10h4V12h4V8H8V4H12z"></path>
+						</svg>
+					</a>
+				</li>
+				<li class="social__item">
+					<a class="social__link social__link--google" href="#"><span class="visually-hidden">Google</span>
+						<svg fill="#555555" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="30px" height="30px">
+							<path d="M 17.1875 10.9375 C 9.421875 10.9375 3.125 17.234375 3.125 25 C 3.125 32.765625 9.421875 39.0625 17.1875 39.0625 C 24.953125 39.0625 31.25 32.765625 31.25 25 C 31.25 24.035156 31.144531 23.09375 30.960938 22.1875 L 30.882813 21.875 L 17.1875 21.875 L 17.1875 26.5625 L 26.5625 26.5625 C 25.816406 30.996094 21.832031 34.375 17.1875 34.375 C 12.007813 34.375 7.8125 30.179688 7.8125 25 C 7.8125 19.820313 12.007813 15.625 17.1875 15.625 C 19.53125 15.625 21.667969 16.492188 23.3125 17.914063 L 26.671875 14.625 C 24.171875 12.335938 20.84375 10.9375 17.1875 10.9375 Z M 39.0625 17.1875 L 39.0625 21.875 L 34.375 21.875 L 34.375 25 L 39.0625 25 L 39.0625 29.6875 L 42.1875 29.6875 L 42.1875 25 L 46.875 25 L 46.875 21.875 L 42.1875 21.875 L 42.1875 17.1875 Z"></path>
+						</svg>
+					</a>
+				</li>
+				<li class="social__item">
+					<a class="social__link social__link--instagtam" href="#"><span class="visually-hidden">Instagtam</span>
+						<svg version="1.1" id="Layer_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="21px" height="21px" viewBox="0 0 21 21" enable-background="new 0 0 21 21" xml:space="preserve">
+							<path fill="#555555" d="M18,0H3C1.35,0,0,1.35,0,3v15c0,1.65,1.35,3,3,3h15c1.65,0,3-1.35,3-3V3C21,1.35,19.65,0,18,0z M10.5,7
+							c1.93,0,3.5,1.57,3.5,3.5S12.43,14,10.5,14S7,12.43,7,10.5S8.57,7,10.5,7z M18,18H3V9h1.181C4.067,9.482,4,9.983,4,10.5
+							c0,3.59,2.91,6.5,6.5,6.5s6.5-2.91,6.5-6.5c0-0.517-0.066-1.018-0.181-1.5H18V18z M18,7h-4V3h4V7z"></path>
+						</svg>
+					</a>
+				</li>
+				<li class="social__item">
+					<a class="social__link social__link--twitter" href="#"><span class="visually-hidden">Twitter</span>
+					
+						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="23" height="19" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+						    <path fill="#555555" d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016
+							c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992
+							c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056
+							c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152
+							c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792
+							c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.44
+							C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.16-9.12-0.384-13.568
+							C480.224,136.96,497.728,118.496,512,97.248z"></path>
+						</svg>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="main-footer__copy copy">
+			<div class="container">
+				<b class="copy__text">
+					&copy; Copyright 2017. Big Shop by Victor Themes
+				</b>
+			</div>
+		</div>
+	</footer>	
+
+	<script src="js/tab-meny.js"></script>
+</body>
+</html>
